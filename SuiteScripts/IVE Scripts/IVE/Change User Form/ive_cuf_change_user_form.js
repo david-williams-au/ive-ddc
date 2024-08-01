@@ -110,7 +110,7 @@ define(
 
         common.logVal('debug', 'subsidiaryId', subsidiaryId);
 
-        // TODO: Replace hack once script info properly exposed on common module
+        // TODO Replace hack once script info properly exposed on common module
         // configId = common._script.getParameter({ name: constants.SCRIPT.PARAM_IDS.CONFIG });
 
         configSearch =

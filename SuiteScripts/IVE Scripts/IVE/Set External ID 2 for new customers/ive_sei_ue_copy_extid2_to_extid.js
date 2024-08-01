@@ -123,7 +123,7 @@ define(
             (externalId2.trim() === '')
           ) {
 
-            // TODO: Change this handling to redirect the user back to the record with an error message
+            // TODO Change this handling to redirect the user back to the record with an error message
 
             throw new Error('A value is required in the EXTERNAL ID2 field for the NetSuite to Prism integration');
 
